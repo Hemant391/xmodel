@@ -35,7 +35,7 @@ export default function Form({ setIsOpen }) {
 
         <div className="modal">
 
-            <div className="modal-content">
+            <div className="modal-content" style={{width:'100%'}}>
                 <form onSubmit={handlesubmit}>
 
                     <h3>Fill Details</h3>
