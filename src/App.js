@@ -10,12 +10,17 @@ function App() {
     <div className="App">
       <h1>User Details Modal</h1>
       <button type="button" onClick={()=>setShowmodal(!showmodal)} >Open Form</button>
-      
+      <div className="modal">
+
+
+            <div className="modal-content" style={{width:'100%'}}>
 
       <Modal isOpen={showmodal} setIsOpen={setShowmodal}>
         <Form  setIsOpen={setShowmodal}  />
       </Modal>
+            </div>
 
+      </div>
     </div>
   );
 }
